@@ -1,0 +1,4 @@
+on fs
+    setprop ro.com.google.clientidbase android-hmd-rev2
+    setprop ro.camera.shuttersound.default 0
+    setprop persist.lcm.brightness.cust 40

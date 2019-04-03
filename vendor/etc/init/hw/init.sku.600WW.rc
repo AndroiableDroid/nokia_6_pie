@@ -1,0 +1,2 @@
+on fs
+    setprop ro.com.google.clientidbase android-hmd-rev2

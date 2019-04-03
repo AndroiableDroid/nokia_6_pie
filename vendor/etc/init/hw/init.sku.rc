@@ -1,0 +1,44 @@
+on fs
+    setprop ro.product.brand Nokia
+    setprop ro.product.device PLE
+    setprop ro.opa.eligible_device true
+    setprop ro.product.manufacturer "HMD Global"
+    setprop ro.product.nickname "Nokia 6"
+    setprop ro.product.first_api_level 25
+    setprop fw.max_users 5
+    setprop fw.show_multiuserui true
+    setprop ro.config.dbgcfgtool_config 2
+    setprop ro.com.google.acsa true
+    setprop ro.com.android.prov_mobiledata false
+    setprop ro.usb.type 2
+    setprop log.tag.Icing F
+    setprop log.tag.statsd F
+    setprop qemu.hw.mainkeys 1
+    setprop ro.build.product PLE
+    setprop log.tag.improveTouch F
+    setprop ro.product.locale en-GB
+    setprop ro.product.board MSM8937
+    setprop persist.dsds.enabled true
+    setprop ro.product.model.num 00WW
+    setprop ro.product.model "TA-1021"
+    setprop persist.radio.sar.enabled 7
+    setprop ro.product.name TA-1021_00WW
+    setprop ro.product.vendor.device PLE
+    setprop persist.anr.block_long_time 3
+    setprop ro.product.vendor.brand Nokia
+    setprop persist.anr.block_short_time 1
+    setprop ro.com.android.mobiledata true
+    setprop persist.anr.allow_dump_number 1
+    setprop ro.com.android.dataroaming false
+    setprop ro.product.model.display TA-1021
+    setprop persist.sys.pftrace.enabled false
+    setprop log.tag.RegisteredServicesCache F
+    setprop persist.raise.dialer.priority true
+    setprop ro.vendor.qti.sys.fw.bg_apps_limit 32
+    setprop ro.product.vendor.manufacturer "HMD Global"
+    setprop ro.vendor.qti.sys.fw.trim_enable_memory 1073741824
+    setprop setupwizard.feature.deferred_snooze_allow_never true
+on post-fs
+    setprop dalvik.vm.dex2oat-threads 4
+on fs
+	setprop ro.vendor.build.fingerprint Nokia/TA-1021_00WW/PLE:9/PKQ1.181105.001/00WW_6_12H:user/release-keys
